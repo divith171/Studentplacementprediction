@@ -1,0 +1,473 @@
+body
+{
+background-image:url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+height: 900px; /* You must set a specified height */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size:cover;
+background-position: left  ;
+margin:auto;
+}
+
+.header{
+color :#c7b6b5;
+font-family: calibri;
+font-size : 25px;
+text-align:center;
+font-style : bold;
+margin:auto;
+text-shadow: 5px 3px #000000;
+background-color : #3d3a3a;
+position: relative;
+top: -35px;
+opacity:0.8;
+}
+
+.button
+{
+border-radius:20px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+text-transform:uppercase;
+background-color:white;
+box-shadow: 3.5px 2.5px #000;
+position: relative;
+left: 20px;
+top:-20px;
+font-family:calibri;
+opacity: 0.6;
+}
+
+.button:hover
+{
+opacity:0.8;
+
+}
+
+.my-form .gen
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-bottom: -2%;
+}
+
+.my-form .gen-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+float:right;
+margin-right:59.7%;
+width:25%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .sscb
+{
+display:block;
+position:relative;
+text-align:center;
+float:center;
+margin-left:41.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .sscb-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+float:right;
+margin-right:16%;
+margin-top:-2%;
+width:25%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .sscp
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-bottom: -4%;
+}
+
+.my-form .sscp-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:2%;
+width:25%;
+height:25px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .hscb
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:67.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -2.5%;
+}
+
+.my-form .hscb-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:16%;
+margin-top:-2.5%;
+width:25%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .hscs
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -1%;
+}
+
+.my-form .hscs-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .hscp
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:66.3%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -6.5%;
+}
+
+.my-form .hscp-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:15.8%;
+margin-top:-6.5%;
+width:24.5%;
+height:27px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .ugd
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.2%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .ugd-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .ugdp
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:63.3%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -6.5%;
+
+}
+
+.my-form .ugdp-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:15.3%;
+margin-top:-6.5%;
+width:25%;
+height:26.7px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .pgd
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-44.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .pgd-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .pgdp
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:63.7%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -6.5%;
+}
+
+.my-form .pgdp-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:15.3%;
+margin-top:-6.5%;
+width:25%;
+height:26.7px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+
+}
+
+.my-form .wrkx
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .wrkx-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+float:right;
+border-color:black;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:32px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .etest
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:65.3%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -6.5%;
+}
+
+.my-form .etest-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:15.3%;
+margin-top:-6.7%;
+width:25%;
+height:26.7px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+
+}
+
+.my-form .reset-but
+{
+color:#000;
+display:block;
+font-family:calibri ;
+font-weight:bold;
+font-size:20px;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+width:25.5%;
+height:30px;
+float:right;
+margin-right:59.6%;
+margin-top:-2%;
+box-shadow: 2.2px 2.2px #703517;
+
+}
+
+.my-form .submit-but
+{
+color:#000;
+display:block;
+font-family:calibri ;
+font-weight:bold;
+font-size:20px;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+width:25.5%;
+height:30px;
+float:right;
+margin-right:15%;
+margin-top:-5%;
+box-shadow: 2.2px 2.2px #703517;
+}
+
+.my-form button:hover{
+
+opacity:0.70;
+}
+
+.foot{
+background-color : #3d3a3a;
+position: relative;
+color:#c7b6b5;
+font-size:25px;
+font-family:calibri;
+font-weight:bold;
+text-align:center;
+margin-top:3.9%;
+opacity:0.8;
+}

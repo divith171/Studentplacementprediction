@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <header>
+                <h1>RECRUITMENT PREDICTION</h1>
+            </header>
+        </div>
+
+        <div class="back-page">
+            <a href="{{ url_for ('home') }}" , methods = "GET">
+                <input class="button" type="submit"  value="⬅Back TO home page" name="">
+            </a>
+        </div>
+
+
+
+        <div class="my-form">
+
+            <form>
+
+
+                <label class="gen">Gender</label><br><br>
+                <select class="gen-i" name="gen" id="gen" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Male" >Male</option>
+                <option value="Female" >Female</option>
+                </select><br>
+                <br>
+
+                <label class="sscb">SSC Board</label><br><br>
+                <select class="sscb-i" name="sscb" id="sscb" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Central" >Central</option>
+                <option value="Others" >Others</option>
+                </select><br>
+                <br>
+
+                <label class="sscp">SSC Percentage</label><br><br>
+                <input class="sscp-i" type="number" name="sscp" placeholder="Percentage(%)"  step="0.01"  min="1" max="100" required="required"><br><br>
+
+                <label class="hscb">HSC Board</label><br><br>
+                <select class="hscb-i" name="hscb" id="hscb" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Central" >Central</option>
+                <option value="Others" >Others</option>
+                </select><br>
+                <br>
+
+                <label class="hscs">HSC Stream</label><br><br>
+                <select class="hscs-i" name="hscs" id="hscs" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Commerce" >Commerce</option>
+                <option value="Science" >Science</option>
+                <option value="Arts" >Arts</option>
+                </select><br>
+                <br>
+
+                <label class="hscp">HSC Percentage</label><br><br>
+                <input class="hscp-i" type="number" name="hscp" placeholder="Percentage(%)"  step="0.01"  min="1" max="100" required="required"><br><br>
+
+                <label class="ugd">Under Graduate Degree</label><br><br>
+                <select class="ugd-i" name="ugd" id="ugd" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="CommMgmt" >Comm&Mgmt</option>
+                <option value="ScienceTech" >Sci&Tech</option>
+                <option value="Others" >Others</option>
+                </select><br>
+                <br>
+
+                <label class="ugdp">Under Graduate Percentage</label><br><br>
+                <input class="ugdp-i" type="number" name="ugdp" placeholder="Percentage(%)"  step="0.01"  min="1" max="100" required="required"><br><br>
+
+                <label class="pgd">Post Graduate Specialization</label><br><br>
+                <select class="pgd-i" name="pgd" id="pgd" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="MktFin" >MBA(Mkt&Finance)</option>
+                <option value="MktHR" >MBA(Mkt&HR)</option>
+                </select><br>
+                <br>
+
+                <label class="pgdp">Post Graduate Percentage</label><br><br>
+                <input class="pgdp-i" type="number" name="pgdp" placeholder="Percentage(%)"  step="0.01"  min="1" max="100" required="required"><br><br>
+
+                <label class="wrkx">Work Experience</label><br><br>
+                <select class="wrkx-i" name="wrkx" id="wrkx" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Yes" >Yes</option>
+                <option value="No" >No</option>
+                </select><br>
+                <br>
+
+                <label class="etest">Eligibility Test Score</label><br><br>
+                <input class="etest-i" type="number" name="etest" placeholder="Score"  step="0.01"  min="1" max="100" required="required"><br><br>
+
+                <button  type="reset" class="reset-but">Reset</button>
+
+                <br><br>
+
+
+                <button  formaction="{{url_for ('predict')}}" formmethod="post" type="submit" class="submit-but" value="predict">Predict</button>
+
+
+
+                <div class="foot">
+                <footer>Copyright © 2021 by Adityaraj Hemant Chaudhari</footer>
+                </div>
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
